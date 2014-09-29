@@ -1,0 +1,107 @@
+INFO  - 2014-09-29 16:47:12.591; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-09-29 16:47:12.606; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor E:\Code\github\LANSearch_Servers\Solr\contexts at interval 0
+INFO  - 2014-09-29 16:47:12.610; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: E:\Code\github\LANSearch_Servers\Solr\contexts\solr-jetty-context.xml
+INFO  - 2014-09-29 16:47:12.645; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/E:/Code/github/LANSearch_Servers/Solr/webapps/solr.war!/ to E:\Code\github\LANSearch_Servers\Solr\solr-webapp\webapp
+INFO  - 2014-09-29 16:47:13.919; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-09-29 16:47:13.961; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-09-29 16:47:13.970; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-09-29 16:47:13.970; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-09-29 16:47:13.971; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-09-29 16:47:14.056; org.apache.solr.core.ConfigSolr; Loading container configuration from E:\Code\github\LANSearch_Servers\Solr\solr\solr.xml
+INFO  - 2014-09-29 16:47:14.091; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: E:\Code\github\LANSearch_Servers\Solr\solr
+INFO  - 2014-09-29 16:47:14.095; org.apache.solr.core.CoreContainer; New CoreContainer 1606286799
+INFO  - 2014-09-29 16:47:14.096; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-09-29 16:47:14.102; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-09-29 16:47:14.102; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-09-29 16:47:14.105; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-09-29 16:47:14.106; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-09-29 16:47:14.106; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-09-29 16:47:14.107; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-09-29 16:47:14.107; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-09-29 16:47:14.107; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-09-29 16:47:14.107; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-09-29 16:47:14.238; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2014-09-29 16:47:14.239; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-09-29 16:47:14.240; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-09-29 16:47:14.241; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-09-29 16:47:23.330; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath E:\Code\github\LANSearch_Servers\Solr\solr
+INFO  - 2014-09-29 16:47:23.337; org.apache.solr.core.CorePropertiesLocator; Found core lansearch in E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\
+INFO  - 2014-09-29 16:47:23.337; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2014-09-29 16:47:23.338; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\'
+INFO  - 2014-09-29 16:47:23.373; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2014-09-29 16:47:23.377; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.0
+INFO  - 2014-09-29 16:47:23.439; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-09-29 16:47:23.445; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-09-29 16:47:23.453; org.apache.solr.schema.IndexSchema; [lansearch] Schema name=lansearch
+INFO  - 2014-09-29 16:47:23.514; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2014-09-29 16:47:23.573; org.apache.solr.core.CoreContainer; Creating SolrCore 'lansearch' using configuration from instancedir E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\
+INFO  - 2014-09-29 16:47:23.586; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-09-29 16:47:23.592; org.apache.solr.core.SolrCore; [lansearch] Opening new SolrCore at E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\, dataDir=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\
+INFO  - 2014-09-29 16:47:23.592; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: lansearch
+INFO  - 2014-09-29 16:47:23.595; org.apache.solr.core.SolrCore; [lansearch] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2014-09-29 16:47:23.596; org.apache.solr.core.SolrCore; [lansearch] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2014-09-29 16:47:23.605; org.apache.solr.core.CachingDirectoryFactory; return new directory for E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data
+INFO  - 2014-09-29 16:47:23.607; org.apache.solr.core.SolrCore; New index directory detected: old=null new=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index/
+WARN  - 2014-09-29 16:47:23.608; org.apache.solr.core.SolrCore; [lansearch] Solr index directory 'E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index' doesn't exist. Creating new index...
+INFO  - 2014-09-29 16:47:23.615; org.apache.solr.core.CachingDirectoryFactory; return new directory for E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index
+INFO  - 2014-09-29 16:47:23.728; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index lockFactory=NativeFSLockFactory@E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-09-29 16:47:23.729; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-09-29 16:47:23.731; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2014-09-29 16:47:23.771; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-09-29 16:47:23.776; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.776; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.776; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.777; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.780; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2014-09-29 16:47:23.781; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+WARN  - 2014-09-29 16:47:23.782; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.783; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-09-29 16:47:23.783; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2014-09-29 16:47:23.784; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2014-09-29 16:47:23.784; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-09-29 16:47:23.784; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-09-29 16:47:23.786; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2014-09-29 16:47:23.787; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2014-09-29 16:47:23.797; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-09-29 16:47:23.798; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-09-29 16:47:23.799; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-09-29 16:47:23.799; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-09-29 16:47:23.800; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-09-29 16:47:23.809; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 10000ms; 
+INFO  - 2014-09-29 16:47:23.810; org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 1000ms; 
+INFO  - 2014-09-29 16:47:23.846; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index lockFactory=NativeFSLockFactory@E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-09-29 16:47:23.847; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-09-29 16:47:23.852; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@673ae442[lansearch] main
+INFO  - 2014-09-29 16:47:23.857; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\conf
+INFO  - 2014-09-29 16:47:23.857; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\conf}
+INFO  - 2014-09-29 16:47:23.863; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\conf
+WARN  - 2014-09-29 16:47:23.864; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+INFO  - 2014-09-29 16:47:23.866; org.apache.solr.rest.ManagedResourceStorage$JsonStorage; Saved JSON object to path _rest_managed.json using file:dir=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\conf
+INFO  - 2014-09-29 16:47:23.867; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2014-09-29 16:47:32.944; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@673ae442[lansearch] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-09-29 16:47:32.944; org.apache.solr.core.CoreContainer; registering core: lansearch
+INFO  - 2014-09-29 16:47:32.946; org.apache.solr.servlet.SolrDispatchFilter; user.dir=E:\Code\github\LANSearch_Servers\Solr
+INFO  - 2014-09-29 16:47:32.946; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-09-29 16:47:32.965; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@127.0.0.1:18983
+INFO  - 2014-09-29 16:47:33.021; org.apache.solr.core.SolrCore; [lansearch] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=76 
+INFO  - 2014-09-29 16:47:33.022; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2014-09-29 16:47:33.022; org.apache.solr.core.SolrCore; [lansearch] Registered new searcher Searcher@673ae442[lansearch] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-09-29 16:47:39.380; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1412002059205} status=0 QTime=2 
+INFO  - 2014-09-29 16:47:39.555; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1412002059493} status=0 QTime=2 
+INFO  - 2014-09-29 16:47:54.964; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@127.0.0.1:18983
+INFO  - 2014-09-29 16:47:54.965; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/E:/Code/github/LANSearch_Servers/Solr/solr-webapp/webapp/},E:\Code\github\LANSearch_Servers\Solr/webapps/solr.war
+INFO  - 2014-09-29 16:47:55.967; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1606286799
+INFO  - 2014-09-29 16:47:55.967; org.apache.solr.core.SolrCore; [lansearch]  CLOSING SolrCore org.apache.solr.core.SolrCore@26184c75
+INFO  - 2014-09-29 16:47:55.968; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=10000ms,autocommits=0,soft autocommit maxTime=1000ms,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2014-09-29 16:47:55.968; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-09-29 16:47:55.968; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-09-29 16:47:55.969; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-09-29 16:47:55.970; org.apache.solr.core.SolrCore; [lansearch] Closing main searcher on request.
+INFO  - 2014-09-29 16:47:55.971; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-09-29 16:47:55.972; org.apache.solr.core.CachingDirectoryFactory; looking to close E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data [CachedDir<<refCount=0;path=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data;done=false>>]
+INFO  - 2014-09-29 16:47:55.972; org.apache.solr.core.CachingDirectoryFactory; Closing directory: E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data
+INFO  - 2014-09-29 16:47:55.972; org.apache.solr.core.CachingDirectoryFactory; looking to close E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index [CachedDir<<refCount=0;path=E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index;done=false>>]
+INFO  - 2014-09-29 16:47:55.973; org.apache.solr.core.CachingDirectoryFactory; Closing directory: E:\Code\github\LANSearch_Servers\Solr\solr\lansearch\data\index
+INFO  - 2014-09-29 16:47:55.974; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/E:/Code/github/LANSearch_Servers/Solr/solr-webapp/webapp/},E:\Code\github\LANSearch_Servers\Solr/webapps/solr.war

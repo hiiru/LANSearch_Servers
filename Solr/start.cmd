@@ -1,0 +1,1 @@
+@start "LANSearch Solr" /min java -DSTOP.KEY=lansearchsolrstop -DSTOP.PORT=18984 -Djetty.port=18983 -Djetty.host=127.0.0.1 -jar start.jar
